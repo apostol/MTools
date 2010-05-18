@@ -1,0 +1,1844 @@
+<?xml version="1.0"?>
+<!-- $Id: dbclayout.xml 103 2007-01-04 21:41:18Z thewrs $ -->
+<DBFilesClient>
+  <Achievement>
+    <format string="niixssssssssssssssssissssssssssssssssiiiiiissssssssssssssssiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+  </Achievement>
+  <AchievementCriteria>
+    <format string="niiiiiiiixxxxxxxxxxxxxxxxxiixix"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+  </AchievementCriteria>
+  <AreaTable>
+    <format string="iiinixxxxxissssssssssssssssiixxxxff"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+    <field_2 name="f_Map" description="Map"/>
+    <field_3 name="f_Zone" description="Zone"/>
+    <field_4 name="fExploreFlag" description="Explore Flag"/>
+    <field_5 name="fFlags" description="Flags"/>
+    <field_6 description="funk6"/>
+    <field_7 description="funk7"/>
+    <field_8 description="funk8"/>
+    <field_9 description="funk9"/>
+    <field_10 description="funk10"/>
+    <field_11 name="fAreaLevel" description="Area level"/>
+    <field_12 name="fName" description="Area Name 1"/>
+    <field_13 description="Area Name 2"/>
+    <field_14 description="Area Name 3"/>
+    <field_15 description="Area Name 4"/>
+    <field_16 description="Area Name 5"/>
+    <field_17 description="Area Name 6"/>
+    <field_18 description="Area Name 7"/>
+    <field_19 description="Area Name 8"/>
+    <field_20 description="Area Name 9"/>
+    <field_21 description="Area Name 10"/>
+    <field_22 description="Area Name 11"/>
+    <field_23 description="Area Name 12"/>
+    <field_24 description="Area Name 13"/>
+    <field_25 description="Area Name 14"/>
+    <field_26 description="Area Name 15"/>
+    <field_27 description="Area Name 16"/>
+    <field_28 name="fStringFlag" description="String Flags"/>
+    <field_29 name="fTeam" description="AREATEAM_NONE  = 0, AREATEAM_ALLY  = 2, AREATEAM_HORDE = 4"/>
+    <field_30 description="funk11"/>
+    <field_31 description="funk12"/>
+    <field_32 description="funk13"/>
+    <field_33 description="funk14"/>
+    <field_34 description="funk15"/>
+    <field_35 description="funk16"/>
+  </AreaTable>
+  <AreaGroup>
+    <format string="niiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+  </AreaGroup>
+  <AreaTrigger>
+    <format string="niffffffff"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="f_Map" description="Map"/>
+    <field_3 name="fPosX" description="pos_x"/>
+    <field_4 name="fPosY" description="pos_y"/>
+    <field_5 name="fPosZ" description="pos_z"/>
+    <field_6 name="fRadius" description="radius"/>
+    <field_7 name="fBoxX" description="fbox_x"/>
+    <field_8 name="fBoxY" description="fbox_y"/>
+    <field_9 name="fBoxZ" description="fbox_z"/>
+    <field_10 name="fBoxOrientation" description="Box Orientation"/>
+  </AreaTrigger>
+  <AuctionHouse>
+    <format string="niiisxxxxxxxxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+    <field_5 name="fName" description="Name"/>
+  </AuctionHouse>
+  <BankBagSlotPrices>
+    <format string="ni"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fPrice" description="price"/>
+  </BankBagSlotPrices>
+  <BarberShopStyle>
+    <format string="nixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+  </BarberShopStyle>
+  <BattlemasterList>
+    <format string="niiiiiiiiiiiixxxssssssssssssssssxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1  name="fkey" description="id"/>
+    <field_2  name="f_Map1" description="Map 1"/>
+    <field_3  name="f_Map2" description="Map 2"/>
+    <field_4  name="f_Map3" description="Map 3"/>
+    <field_10 name="fType" description="3 - BG, 4 - arena"/>
+    <field_11 name="fMinimalLevel" description="min_lv"/>
+    <field_12 name="fMaximalLevel" description="max_lv"/>
+    <field_13 name="fMaximalPlayersPerTeam" description="Maximal Players Per Team"/>
+    <field_14 name="fMinimalPlayersPerTeam" description="Minimal Players Per Team"/>
+    <field_15 description="unk1"/>
+    <field_16 name="fName" description="Name"/>
+    <field_17 description="Name"/>
+    <field_18 description="Name"/>
+    <field_19 description="Name"/>
+    <field_20 description="Name"/>
+    <field_21 description="Name"/>
+    <field_22 description="Name"/>
+    <field_23 description="Name"/>
+    <field_24 description="Name"/>
+    <field_25 description="Name"/>
+    <field_26 description="Name"/>
+    <field_27 description="Name"/>
+    <field_28 description="Name"/>
+    <field_29 description="Name"/>
+    <field_30 description="Name"/>
+    <field_31 description="Name"/>
+    <field_32 description="string flag"/>
+    <field_33 description="Unknown"/>
+  </BattlemasterList>
+  <CharStartOutfit>
+    <format string="diiiiiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="ID"/>
+  </CharStartOutfit>
+  <CharTitles>
+    <format string="nxssssssssssssssssxssssssssssssssssxi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_3 name="fName"  description="title"/>
+    <field_37 description="String flag"/>
+    <field_38 name="fBitIndex" description="36 used in PLAYER_CHOSEN_TITLE and 1 смещение влево index in PLAYER__FIELD_KNOWN_TITLES"/>
+  </CharTitles>
+  <ChatChannels>
+    <format string="iixssssssssssssssssissssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fFlags"/>
+    <field_4 description="pattern"/>
+  </ChatChannels>
+  <ChrClasses>
+    <format string="nxixssssssssssssssssxssssssssssssssssxssssssssssssssssxxix"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="Class ID"/>
+    <field_3 name="fPowerType" description="key field"/>
+    <field_5 name="fName" description="Name"/>
+    <field_57 name="fSpellFamily" description="Spell Family"/>
+  </ChrClasses>
+  <ChrRaces>
+    <format string="nxixiixxixxxxissssssssssssssssxssssssssssssssssxssssssssssssssssxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="Race ID"/>
+    <field_3 name="f_factiontemplate" description="Faction Template ID" />
+    <field_4 name="fPetType" description="vid peta?"/>
+    <field_5 name="f_malemodel" description="Male model id" />
+    <field_6 name="f_femalemodel" description="Female model id"/>
+    <field_9 name="fteam" description="7-Aliance|1-Horde"/>
+    <field_14 name="fStartMovie" description="ID from CinematicCamera"/>
+    <field_15 name="fName"/>
+    <field_69 name="fAddon" description="0-original race|1 - TBC Addon..."/>
+  </ChrRaces>
+  <CinematicSequences>
+    <format string="nxxxxxxxxx"/>
+  </CinematicSequences>
+  <CreatureDisplayInfo>
+    <format string="nxxifxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_4 description="creature_diplayinfo_extra.dbc"/>
+    <field_5 name="fScale" description="Scale"/>
+  </CreatureDisplayInfo>
+  <CreatureFamily>
+    <format string="nfifiiiissssssssssssssssxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fMinScale"/>
+    <field_3 name="fMinScaleLevel"/>
+    <field_4 name="fMaxScale"/>
+    <field_5 name="fMaxScaleLevel"/>
+    <field_6 name="fSkillLine"/>
+    <field_7 name="fSkillLine2"/>
+    <field_8 name="fPetFoodMask"/>
+    <filed_9 name="fName"/>
+    <field_26 name="fIcon" description="Icons Ability_Hunter_Pet "/>
+  </CreatureFamily>
+  <CreatureSpellData>
+    <format string="niiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fSpellId1" description="Hunter pet learned spell 1"/>
+    <field_3 name="fSpellId2" description="Hunter pet learned spell 1"/>
+    <field_4 name="fSpellId3" description="Hunter pet learned spell 1"/>
+    <field_5 name="fSpellId4" description="Hunter pet learned spell 1"/>
+    <field_6 name="fAvailability1"/>
+    <field_7 name="fAvailability1"/>
+    <field_8 name="fAvailability1"/>
+    <field_9 name="fAvailability1"/>
+  </CreatureSpellData>
+  <CreatureType>
+    <format string="nssssssssssssssssii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fname1"/>
+    <field_3 name="fname2"/>
+    <field_4 name="fname3"/>
+    <field_5 name="fname4"/>
+    <field_6 name="fname5"/>
+    <field_7 name="fname6"/>
+    <field_8 name="fname7"/>
+    <field_9 name="fname8"/>
+    <field_10 name="fname9"/>
+    <field_11 name="fname10"/>
+    <field_12 name="fname11"/>
+    <field_13 name="fname12"/>
+    <field_14 name="fname13"/>
+    <field_15 name="fname14"/>
+    <field_16 name="fname15"/>
+    <field_17 name="fname16"/>
+    <field_18 name="fname16"/>
+    <field_19 name="fstringmask"/>
+    <field_19 name="funk0"/>
+  </CreatureType>
+  <CurrencyTypes>
+    <format string="niii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fItemId" />
+    <field_3 name="fCategory" />
+    <field_4 name="fBitIndex" />
+  </CurrencyTypes>
+  <DurabilityCosts>
+    <format string="niiiiiiiiiiiiiiiiiiiiiiiiiiiii"/>
+    <index>
+      <primary>fItemLevel</primary>
+    </index>
+    <field_1 name="fItemLevel" description="Item Level"/>
+    <field_2 description="multiplier"/>
+    <field_3 description="multiplier"/>
+    <field_4 description="multiplier"/>
+    <field_5 description="multiplier"/>
+    <field_6 description="multiplier"/>
+    <field_7 description="multiplier"/>
+    <field_8 description="multiplier"/>
+    <field_9 description="multiplier"/>
+    <field_10 description="multiplier"/>
+    <field_11 description="multiplier"/>
+    <field_12 description="multiplier"/>
+    <field_13 description="multiplier"/>
+    <field_14 description="multiplier"/>
+    <field_15 description="multiplier"/>
+    <field_16 description="multiplier"/>
+    <field_17 description="multiplier"/>
+    <field_18 description="multiplier"/>
+    <field_19 description="multiplier"/>
+    <field_20 description="multiplier"/>
+    <field_21 description="multiplier"/>
+    <field_22 description="multiplier"/>
+    <field_23 description="multiplier"/>
+    <field_24 description="multiplier"/>
+    <field_25 description="multiplier"/>
+    <field_26 description="multiplier"/>
+    <field_27 description="multiplier"/>
+    <field_28 description="multiplier"/>
+    <field_29 description="multiplier"/>
+    <field_30 description="multiplier"/>
+  </DurabilityCosts>
+  <DurabilityQuality>
+    <format string="nf"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fQualityMod" description="Quality modificator"/>
+  </DurabilityQuality>
+  <Emotes>
+    <format string="nsixxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 description="internal name"/>
+    <field_3 name="f_EmotesTextIndex" description="AnimationData.dbc"/>
+    <field_4 description="funk4"/>
+    <field_5 description="funk5"/>
+    <field_6 description="funk6"/>
+    <field_7 description="funk7"/>
+  </Emotes>
+  <EmotesText>
+    <format string="nsiiiixixixiixxixxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fInternalName" description="internal name"/>
+    <field_3 name="f_EmotesIndex" description="Emotes.dbc"/>
+    <field_4 description="EmotesTextData.dbc(male on some1)"/>
+    <field_5 description="EmotesTextData.dbc(male on you)"/>
+    <field_6 description="EmotesTextData.dbc(you on male)"/>
+    <field_7 description="funk7"/>
+    <field_8 description="EmotesTextData.dbc(male)"/>
+    <field_9 description="funk9"/>
+    <field_10 description="EmotesTextData.dbc(you)"/>
+    <field_11 description="funk11"/>
+    <field_12 description="EmotesTextData.dbc(female on some1)"/>
+    <field_13 description="EmotesTextData.dbc(female on you)"/>
+    <field_14 description="funk14"/>
+    <field_15 description="funk15"/>
+    <field_16 description="EmotesTextData.dbc(female)"/>
+    <field_17 description="funk17"/>
+    <field_18 description="funk18"/>
+    <field_19 description="funk19"/>
+  </EmotesText>
+  <Faction>
+    <format string="niiiiiiiiiiiiiiiiiissssssssssssssssissssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fReputationListIndex" description="Reputaion list ID"/>
+    <field_3 name="fBaseRepRaceMask1" description="Base reputation race masks (see enum Races)"/>
+    <field_4 name="fBaseRepRaceMask2" description="Base reputation race masks (see enum Races)"/>
+    <field_5 name="fBaseRepRaceMask3" description="Base reputation race masks (see enum Races)"/>
+    <field_6 name="fBaseRepRaceMask4" description="Base reputation race masks (see enum Races)"/>
+    <field_7 name="fBaseRepClassMask1" description="Base reputation class masks (see enum Classes)"/>
+    <field_8 name="fBaseRepClassMask2" description="Base reputation class masks (see enum Classes)"/>
+    <field_9 name="fBaseRepClassMask3" description="Base reputation class masks (see enum Classes)"/>
+    <field_10 name="fBaseRepClassMask4" description="Base reputation class masks (see enum Classes)"/>
+    <field_11 name="fBaseRepValue1" description="Base reputation values"/>
+    <field_12 name="fBaseRepValue2" description="Base reputation values"/>
+    <field_13 name="fBaseRepValue3" description="Base reputation values"/>
+    <field_14 name="fBaseRepValue4" description="Base reputation values"/>
+    <field_15 name="fReputationFlag1" description="Default flag to applay"/>
+    <field_16 name="fReputationFlag2" description="Default flag to applay"/>
+    <field_17 name="fReputationFlag3" description="Default flag to applay"/>
+    <field_18 name="fReputationFlag4" description="Default flag to applay"/>
+    <field_19 name="fTeam" description="enum Team"/>
+    <field_20 name="fName" description="Name"/>
+    <field_36 description="String flag"/>
+    <field_37 name="fDescription" />
+    <field_53 description="String flag"/>
+  </Faction>
+  <FactionTemplate>
+    <format string="nixiiiiiiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="f_faction" description="Faction"/>
+    <field_3 name="fFlag" description="Faction specific flag"/>
+    <field_4 name="fOurMask" description="Our mask (see Factionmasks)"/>
+    <field_5 name="fFriendlyMask" description="Friendly mask (see Factionmasks)"/>
+    <field_6 name="fHostileMask" description="Hostile mask (see Factionmasks)"/>
+    <field_7 name="fEnemyFaction1" description="Enemy Faction 1"/>
+    <field_8 name="fEnemyFaction2" description="Enemy Faction 2"/>
+    <field_9 name="fEnemyFaction3" description="Enemy Faction 3"/>
+    <field_10 name="fEnemyFaction4" description="Enemy Faction 4"/>
+    <field_11 name="fFriendFaction1" description="Friend Faction 1"/>
+    <field_12 name="fFriendFaction2" description="Friend Faction 2"/>
+    <field_13 name="fFriendFaction3" description="Friend Faction 3"/>
+    <field_14 name="fFriendFaction4" description="Friend Faction 4"/>
+  </FactionTemplate>
+  <GameobjectDisplay>
+    <format string="nxxxxxxxxxxxxxxxxxx"/>
+  </GameobjectDisplay>
+  <GemProperties>
+    <format string="nixxi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 description="Spell Item Enchantment"/>
+    <field_3 description="funk1"/>
+    <field_4 description="funk2"/>
+    <field_5 description="Color"/>
+  </GemProperties>
+  <GlyphProperties>
+    <format string="niii"/>
+  </GlyphProperties>
+  <GlyphSlot>
+    <format string="nii"/>
+  </GlyphSlot>
+  <gtBarberShopCostBase>
+    <format string="f"/>
+  </gtBarberShopCostBase>
+  <gtCombatRatings>
+    <format string="f"/>
+    <field_1 type="float" name="fRaion" description="Ration"/>
+  </gtCombatRatings>
+  <gtChanceToMeleeCritBase>
+    <format string="f"/>
+    <field_1 type="float" name="fBase" description="Base"/>
+  </gtChanceToMeleeCritBase>
+  <gtChanceToMeleeCrit>
+    <format string="f"/>
+    <field_1 type="float" name="fRatio" description="Ratio"/>
+  </gtChanceToMeleeCrit>
+  <gtChanceToSpellCritBase>
+    <format string="f"/>
+    <field_1 type="float" name="fBase" description="Base"/>
+  </gtChanceToSpellCritBase>
+  <gtChanceToSpellCrit>
+    <format string="f"/>
+    <field_1 type="float" name="fRatio" description="fRatio"/>
+  </gtChanceToSpellCrit>
+  <gtOCTRegenHP>
+    <format string="f"/>
+    <field_1 type="float" name="fRatio" description="Ratio"/>
+  </gtOCTRegenHP>
+  <gtOCTRegenMP>
+    <format string="f"/>
+    <field_1 type="float" name="fRatio" description="Ratio"/>
+  </gtOCTRegenMP>
+  <gtRegenHPPerSpt>
+    <format string="f"/>
+    <field_1 type="float" name="fRatio" description="Ratio"/>
+  </gtRegenHPPerSpt>
+  <gtRegenMPPerSpt>
+    <format string="f"/>
+    <field_1 type="float" name="fRatio" description="Ratio"/>
+  </gtRegenMPPerSpt>
+  <Holidays>
+    <format string="nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+      <field_1 name="fkey" description="id"/>
+    </index>
+  </Holidays>
+  <Item>
+    <format string="niiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fClass" description="inventory Class"/>
+    <field_3 name="fSubClass" description="inventory SubClass"/>
+    <field_4 name="funk0"/>
+    <field_5 name="fMaterial"/>
+    <field_6 name="fDisplayId"/>
+    <field_7 name="fInventoryType"/>
+    <field_8 name="fSheath" description="Sheath"/>
+  </Item>
+  <ItemBagFamily>
+    <format string="nssssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+  </ItemBagFamily>
+  <ItemExtendedCost>
+    <format string="niiiiiiiiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fRequiredHonorPoints" description="Required honor points"/>
+    <field_3 name="fRequiredArenaPoints" description="Required Arena points"/>
+    <field_4 name="f_RequiredItem1" description="Required item id"/>
+    <field_5 name="f_RequiredItem2" description="Required item id"/>
+    <field_6 name="f_RequiredItem3" description="Required item id"/>
+    <field_7 name="f_RequiredItem4" description="Required item id"/>
+    <field_8 name="f_RequiredItem5" description="Required item id"/>
+    <field_9 name="fRequiredItem1Count" description="Required count of item"/>
+    <field_10 name="fRequiredItem2Count" description="Required count of item"/>
+    <field_11 name="fRequiredItem3Count" description="Required count of item"/>
+    <field_12 name="fRequiredItem4Count" description="Required count of item"/>
+    <field_13 name="fRequiredItem5Count" description="Required count of item"/>
+    <field_14 name="fRequiredpersonalArenaRate" description="Required personal Arena Rating"/>
+  </ItemExtendedCost>
+  <ItemLimitCategory>
+    <format string="nxxxxxxxxxxxxxxxxxix"/>
+  </ItemLimitCategory>
+  <ItemRandomProperties>
+    <format string="nsiiiiissssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fName" description="properties"/>
+    <field_3 name="f_enchant1" />
+    <field_4 name="f_enchant2" />
+    <field_5 name="f_enchant3" />
+    <field_6 name="f_enchant4" />
+    <field_7 name="f_enchant5" />
+    <field_8 name="fSuffix" description="suffix"/>
+    <field_24 description="String flag"/>
+  </ItemRandomProperties>
+  <ItemRandomSuffix>
+    <format string="nssssssssssssssssisiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fprefixName"  description="name"/>
+    <field_19 name="fName" />
+    <field_20 name="f_enchant1" description="Enchant ID"/>
+    <field_21 name="f_enchant2" description="Enchant ID"/>
+    <field_22 name="f_enchant3" description="Enchant ID"/>
+    <field_23 name="fprefix1"/>
+    <field_24 name="fprefix2"/>
+    <field_25 name="fprefix3"/>
+  </ItemRandomSuffix>
+  <ItemSet>
+    <format string="issssssssssssssssiiiiiiiixxxxxxxxxxiiiiiiiiiiiiiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="fkey"/>
+    <field_2 description="fname1"/>
+    <field_3 description="fname2"/>
+    <field_4 description="fname3"/>
+    <field_5 description="fname4"/>
+    <field_6 description="fname5"/>
+    <field_7 description="fname6"/>
+    <field_8 description="fname7"/>
+    <field_9 description="fname8"/>
+    <field_10 description="fname9"/>
+    <field_11 description="fname10"/>
+    <field_12 description="fname11"/>
+    <field_13 description="fname12"/>
+    <field_14 description="fname13"/>
+    <field_15 description="fname14"/>
+    <field_16 description="fname15"/>
+    <field_17 description="fname16"/>
+    <field_18 description="fFlag"/>
+    <!-- Items ID-->
+    <field_19 description="fitem1"/>
+    <field_20 description="fitem2"/>
+    <field_21 description="fitem3"/>
+    <field_22 description="fitem4"/>
+    <field_23 description="fitem5"/>
+    <field_24 description="fitem6"/>
+    <field_25 description="fitem7"/>
+    <field_26 description="fitem8"/>
+    <field_27 description="fitem9"/>
+    <field_28 description="fitem10"/>
+    <field_29 description="fitem11"/>
+    <!-- Set bonuses -->
+    <field_30 description="f_unk30"/>
+    <field_31 description="f_unk31"/>
+    <field_32 description="f_unk32"/>
+    <field_33 description="f_unk33"/>
+    <field_34 description="f_unk34"/>
+    <field_35 description="f_unk35"/>
+    <!-- Set pieces required for bonus -->
+    <field_36 name="f_spell1" description="fSpell1"/>
+    <field_37 name="f_spell2" description="fSpell2"/>
+    <field_38 name="f_spell3" description="fSpell3"/>
+    <field_39 name="f_spell4" description="fSpell4"/>
+    <field_40 name="f_spell5" description="fSpell5"/>
+    <field_41 name="f_spell6" description="fSpell6"/>
+    <field_42 name="f_spell7" description="fSpell7"/>
+    <field_43 name="f_spell8" description="fSpell8"/>
+    <!-- Items to triggerspell -->
+    <field_44 name="fItemToTriggerSpell1"/>
+    <field_45 name="fItemToTriggerSpell2"/>
+    <field_46 name="fItemToTriggerSpell3"/>
+    <field_47 name="fItemToTriggerSpell4"/>
+    <field_48 name="fItemToTriggerSpell5"/>
+    <field_49 name="fItemToTriggerSpell6"/>
+    <field_50 name="fItemToTriggerSpell7"/>
+    <field_51 name="fItemToTriggerSpell8"/>
+    <field_52 name="f_Skill" description="fRequireSkillId"/>
+    <field_53 name="fSkillValue" description="fRequireSkillValue"/>
+  </ItemSet>
+  <Lock>
+    <format string="niiiiixxxiiiiixxxiixxxxxxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fKeyType1" description="tip zamka 1- key 0- no key 2- skill"/>
+    <field_3 name="fKeyType2" description="tip zamka 1- key 0- no key 2- skill"/>
+    <field_4 name="fKeyType3" description="tip zamka 1- key 0- no key 2- skill"/>
+    <field_5 name="fKeyType4" description="tip zamka 1- key 0- no key 2- skill"/>
+    <field_6 name="fKeyType5" description="tip zamka 1- key 0- no key 2- skill"/>
+    <field_10 name="f_IndexByType1" description="nomer key esli field_2=1"/>
+    <field_11 name="f_IndexByType2" description="nomer key esli field_2=1"/>
+    <field_12 name="f_IndexByType3" description="nomer key esli field_2=1"/>
+    <field_13 name="f_IndexByType4" description="nomer key esli field_2=1"/>
+    <field_14 name="f_IndexByType5" description="nomer key esli field_2=1"/>
+    <field_18 name="fRequiredMiningSkill" description="Required minig skill"/>
+    <field_19 name="fRequiredLockSkill" description="Required lock skill"/>
+  </Lock>
+  <MailTemplate>
+    <format string="nssssssssssssssssissssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fSubject1" description="Subject of mail"/>
+    <field_18 description="String flag"/>
+    <field_19 name="fContent1" description="Content of mail"/>
+  </MailTemplate>
+  <Map>
+    <format string="niiissssssssssssssssisssssssssssssssssissssssssssssssssiiissssssssssssssssissssssssssssssssissssssssssssssssiiffiixxxi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fInternalName" description="iname"/>
+    <field_3 name="fMapType" description="type"/>
+    <field_5 name="fName" description="name"/>
+    <field_28 name="fLinkedZone" description="27 common zone for instance and continent map"/>
+    <field_29 name="fHordePVPIntro"/>
+    <field_46 name="fAliancePVPIntro"/>
+    <field_63 name="fMultiMapIndex"/>
+    <field_84 name="fHeroicIntro"/>
+    <field_118 name="f_parentMapIndex"/>
+    <field_119 name="fStartPosX"/>
+    <field_120 name="fStartPosY"/>
+    <field_121 name="fResetTimeRaid"/>
+    <field_122 name="fResetTimeHeroic"/>
+    <field_125 name="fAddon" description="124 (0-original maps,1-tbc addon)"/>
+  </Map>
+  <MapDifficulty>
+    <format string="diixxxxxxxxxxxxxxxxxiix"/>
+  </MapDifficulty>
+  <Movie>
+    <format string="nxx"/>
+  </Movie>
+  <QuestSort>
+    <format string="nssssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fName" description="fname"/>
+  </QuestSort>
+  <RandPropPoints>
+    <format string="niiiiiiiiiiiiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fItemLevel" description="Item level"/>
+    <field_3 name="fEpicPropertiesPoint1" description="EpicPropertiesPoint"/>
+    <field_4 name="fEpicPropertiesPoint2" description="EpicPropertiesPoint"/>
+    <field_5 name="fEpicPropertiesPoint3" description="EpicPropertiesPoint"/>
+    <field_6 name="fEpicPropertiesPoint4" description="EpicPropertiesPoint"/>
+    <field_7 name="fEpicPropertiesPoint5" description="EpicPropertiesPoint"/>
+    <field_8 name="fRarePropertiesPoint1" description="RarePropertiesPoint"/>
+    <field_9 name="fRarePropertiesPoint2" description="RarePropertiesPoint"/>
+    <field_10 name="fRarePropertiesPoint3" description="RarePropertiesPoint"/>
+    <field_11 name="fRarePropertiesPoint4" description="RarePropertiesPoint"/>
+    <field_12 name="fRarePropertiesPoint5" description="RarePropertiesPoint"/>
+    <field_13 name="fUncommentPropertiesPoint1" description="UncommentPropertiesPoint"/>
+    <field_14 name="fUncommentPropertiesPoint2" description="UncommentPropertiesPoint"/>
+    <field_15 name="fUncommentPropertiesPoint3" description="UncommentPropertiesPoint"/>
+    <field_16 name="fUncommentPropertiesPoint4" description="UncommentPropertiesPoint"/>
+    <field_17 name="fUncommentPropertiesPoint5" description="UncommentPropertiesPoint"/>
+  </RandPropPoints>
+  <ScalingStatDistribution>
+    <format string="niiiiiiiiiiiiiiiiiiiii"/>
+  </ScalingStatDistribution>
+  <ScalingStatValues>
+    <format string="iniiiiiiiiiiiiiiiixxiiii"/>
+  </ScalingStatValues>
+  <SkillLine>
+    <format string="nixssssssssssssssssxxxxxxxxxxxxxxxxxxi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="f_SkillLineCategory" description="SkillLineCategory.dbc"/>
+    <field_3 name="f_SkillCost" description="Skill Cost Id"/>
+    <field_4 name="fName" description="name"/>
+    <field_21 name="fDescription" description="description"/>
+    <field_38 name="f_spellIcon" description="ref_icon"/>
+  </SkillLine>
+  <SkillLineAbility>
+    <format string="niiiixxiiiiixxi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="f_SkillLine" description="Skill Line ID"/>
+    <field_3 name="f_Spell" description="spell.dbc"/>
+    <field_4 name="fRaceMask"/>
+    <field_5 name="fClassMask"/>
+    <field_8 name="fRequiredSkillValue"/>
+    <field_9 name="f_ForwardSpell" description="Forward Spell ID"/>
+    <field_10 name="fLearOnGetSkill" description="can be 1 or 2 for spells learned on get skill"/>
+    <field_11 name="fMaxValue"/>
+    <field_12 name="fMinValue"/>
+    <field_15 name="fRequiredTrainPoints"/>
+  </SkillLineAbility>
+  <SoundEntries>
+    <format string="nisssssssssssxxxxxxxxxxsxxxxx"/>
+    <field_1 name="fkey"/>
+    <field_2 name="fType"/>
+    <field_3 name="fInternalName"/>
+    <field_4 name="fFilename1"/>
+    <field_24 name="fPath"/>
+  </SoundEntries>
+  <SpellCastTimes>
+    <format string="niii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fCastTime" description="fms_base"/>
+    <field_3 name="fCastTimePerLevel" description="fms_perlevel"/>
+    <field_4 name="fMinCastTime" description="fms_max"/>
+  </SpellCastTimes>
+  <SpellDuration>
+    <format string="niii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fDuration1" description="fms_base"/>
+    <field_3 name="fDuration2" description="fms_perlevel"/>
+    <field_4 name="fDuration3" description="fms_max"/>
+  </SpellDuration>
+  <Spell>
+    <format string="niiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiifiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiffffffiiiiiiiiiiiiiiiiiiiiifffiiiiiiiiiiiiiiifffiiiiiiiiiiiiiissssssssssssssssissssssssssssssssissssssssssssssssissssssssssssssssiiiiiiiiiiiiifffiiiiiiiiiifffi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="f_Category" description="fCategory"/>
+    <field_3 name="fDispel" description="fDispel"/>
+    <field_4 name="fMechanic" description="fMechanic"/>
+    <field_5 name="fAttributes" description="fAttributes"/>
+    <field_6 name="fAttributesEx"/>
+    <field_7 name="fAttributesExB"/>
+    <field_8 name="fAttributesExC"/>
+    <field_9 name="fAttributesExD"/>
+    <field_10 name="fAttributesExE"/>
+    <field_11 name="fAttributesExF"/>
+    <field_12 name="funk12"/>
+    <field_13 name="fStances"/>
+    <field_14 name="funk14"/>
+    <field_15 name="fStancesNot"/>
+    <field_16 name="funk16"/>
+    <field_17 name="fTargets"/>
+    <field_18 name="fTargetCreatureType"/>
+    <field_19 name="fRequiresSpellFocus"/>
+    <field_20 name="fFacingCasterFlags"/>
+    <field_21 name="fCasterAuraState"/>
+    <field_22 name="fTargetAuraState"/>
+    <field_23 name="fCasterAuraStateNot"/>
+    <field_24 name="fTargetAuraStateNot"/>
+    <field_25 name="fCasterAuraSpell"/>
+    <field_26 name="fTargetAuraSpell"/>
+    <field_27 name="fExcludeCasterAuraSpell"/>
+    <field_28 name="fExcludeTargetAuraSpell"/>
+    <field_29 name="fCastingTimeIndex"/>
+    <field_30 name="fRecoveryTime"/>
+
+    <field_31 name="fCategoryRecoveryTime"/>
+    <field_32 name="fInterruptFlags"/>
+    <field_33 name="fAuraInterruptFlags"/>
+    <field_34 name="fChannelInterruptFlags"/>
+    <field_35 name="fProcFlags"/>
+    <field_36 name="fProcChance"/>
+    <field_37 name="fProcCharges"/>
+    <field_38 name="fMaxLevel"/>
+    <field_39 name="fBaseLevel"/>
+    <field_40 name="fSpellLevel"/>
+    <field_41 name="f_DurationIndex"/>
+    <field_42 name="fPowerType"/>
+    <field_43 name="fManaCost"/>
+    <field_44 name="fManaCostPerLevel"/>
+    <field_45 name="fManaCostPerSecond"/>
+    <field_46 name="fManaCostPerSecondPerLevel"/>
+    <field_47 name="f_RangeIndex"/>
+    <field_48 name="fSpeed"/>
+    <field_49 name="fModalNextSpell"/>
+    <field_50 name="fStackAmount"/>
+    <field_51 name="fTotem1"/>
+    <field_52 name="fTotem2"/>
+    <field_53 name="fReagent1"/>
+    <field_54 name="fReagent2"/>
+    <field_55 name="fReagent3"/>
+    <field_56 name="fReagent4"/>
+    <field_57 name="fReagent5"/>
+    <field_58 name="fReagent6"/>
+    <field_59 name="fReagent7"/>
+    <field_60 name="fReagent8"/>
+    <field_61 name="fReagentCount1"/>
+    <field_62 name="fReagentCount2"/>
+    <field_63 name="fReagentCount3"/>
+    <field_64 name="fReagentCount4"/>
+    <field_65 name="fReagentCount5"/>
+    <field_66 name="fReagentCount6"/>
+    <field_67 name="fReagentCount7"/>
+    <field_68 name="fReagentCount8"/>
+    <field_69 name="fEquippedItemClass"/>
+    <field_70 name="fEquippedItemSubClassMask"/>
+    <field_71 name="fEquippedItemInventoryTypeMask"/>
+    <field_72 name="fEffect1"/>
+    <field_73 name="fEffect2"/>
+    <field_74 name="fEffect3"/>
+    <field_75 name="fEffectDieSides1"/>
+    <field_76 name="fEffectDieSides2"/>
+    <field_77 name="fEffectDieSides3"/>
+    <field_78 name="fEffectBaseDice1"/>
+    <field_79 name="fEffectBaseDice2"/>
+    <field_80 name="fEffectBaseDice3"/>
+    <field_81 name="fEffectDicePerLevel1"/>
+    <field_82 name="fEffectDicePerLevel2"/>
+    <field_83 name="fEffectDicePerLevel3"/>
+    <field_84 name="fEffectRealPointsPerLevel1"/>
+    <field_85 name="fEffectRealPointsPerLevel2"/>
+    <field_86 name="fEffectRealPointsPerLevel3"/>
+    <field_87 name="fEffectBasePoints1"/>
+    <field_88 name="fEffectBasePoints2"/>
+    <field_89 name="fEffectBasePoints3"/>
+    <field_90 name="fEffectMechanic1"/>
+    <field_91 name="fEffectMechanic2"/>
+    <field_92 name="fEffectMechanic3"/>
+    <field_93 name="fEffectTargetA1"/>
+    <field_94 name="fEffectTargetA2"/>
+    <field_95 name="fEffectTargetA3"/>
+    <field_96 name="fEffectTargetB1"/>
+    <field_97 name="fEffectTargetB2"/>
+    <field_98 name="fEffectTargetB3"/>
+    <field_99 name="f_EffectRadiusIndex1"/>
+    <field_100 name="f_EffectRadiusIndex2"/>
+    <field_101 name="f_EffectRadiusIndex3"/>
+    <field_102 name="fEffectApplyAura1"/>
+    <field_103 name="fEffectApplyAura2"/>
+    <field_104 name="fEffectApplyAura3"/>
+    <field_105 name="fEffectAmplitude1"/>
+    <field_106 name="fEffectAmplitude2"/>
+    <field_107 name="fEffectAmplitude3"/>
+    <field_108 name="fEffectMultipleValue1"/>
+    <field_109 name="fEffectMultipleValue2"/>
+    <field_110 name="fEffectMultipleValue3"/>
+    <field_111 name="fEffectChainTarget1"/>
+    <field_112 name="fEffectChainTarget2"/>
+    <field_113 name="fEffectChainTarget3"/>
+    <field_114 name="fEffectItemType1"/>
+    <field_115 name="fEffectItemType2"/>
+    <field_116 name="fEffectItemType3"/>
+    <field_117 name="fEffectMiscValue1"/>
+    <field_118 name="fEffectMiscValue2"/>
+    <field_119 name="fEffectMiscValue3"/>
+    <field_120 name="fEffectMiscValueB1"/>
+    <field_121 name="fEffectMiscValueB2"/>
+    <field_122 name="fEffectMiscValueB3"/>
+    <field_123 name="fEffectTriggerSpell1"/>
+    <field_124 name="fEffectTriggerSpell2"/>
+    <field_125 name="fEffectTriggerSpell3"/>
+    <field_126 name="fEffectPointsPerComboPoint1"/>
+    <field_127 name="fEffectPointsPerComboPoint2"/>
+    <field_128 name="fEffectPointsPerComboPoint3"/>
+    <field_129 name="fEffectSpellClassMaskA1"/>
+    <field_130 name="fEffectSpellClassMaskA2"/>
+    <field_131 name="fEffectSpellClassMaskA3"/>
+    <field_132 name="fEffectSpellClassMaskB1"/>
+    <field_133 name="fEffectSpellClassMaskB2"/>
+    <field_134 name="fEffectSpellClassMaskB3"/>
+    <field_135 name="fEffectSpellClassMaskC1"/>
+    <field_136 name="fEffectSpellClassMaskC2"/>
+    <field_137 name="fEffectSpellClassMaskC3"/>
+    <field_138 name="fSpellVisual1"/>
+    <field_139 name="fSpellVisual2"/>
+    <field_140 name="fSpellIconId"/>
+    <field_141 name="fSpellActiveIconId"/>
+    <field_142 name="fSpellPriority"/>
+    <field_143 name="fName1"/>
+    <field_144 name="fName2"/>
+    <field_145 name="fName3"/>
+    <field_146 name="fName4"/>
+    <field_147 name="fName5"/>
+    <field_148 name="fName6"/>
+    <field_149 name="fName7"/>
+    <field_150 name="fName8"/>
+    <field_151 name="fName9"/>
+    <field_152 name="fName10"/>
+    <field_153 name="fName11"/>
+    <field_154 name="fName12"/>
+    <field_155 name="fName13"/>
+    <field_156 name="fName14"/>
+    <field_157 name="fName15"/>
+    <field_158 name="fName16"/>
+    <field_159 name="fSpellNameFlag"/>
+    <field_160 name="fRank1"/>
+    <field_161 name="fRank2"/>
+    <field_162 name="fRank3"/>
+    <field_163 name="fRank4"/>
+    <field_164 name="fRank5"/>
+    <field_165 name="fRank6"/>
+    <field_166 name="fRank7"/>
+    <field_167 name="fRank8"/>
+    <field_168 name="fRank9"/>
+    <field_169 name="fRank10"/>
+    <field_170 name="fRank11"/>
+    <field_171 name="fRank12"/>
+    <field_172 name="fRank13"/>
+    <field_173 name="fRank14"/>
+    <field_174 name="fRank15"/>
+    <field_175 name="fRank16"/>
+    <field_176 name="fRankFlags"/>
+    <field_177 name="fDescription1"/>
+    <field_178 name="fDescription2"/>
+    <field_179 name="fDescription3"/>
+    <field_180 name="fDescription4"/>
+    <field_181 name="fDescription5"/>
+    <field_182 name="fDescription6"/>
+    <field_183 name="fDescription7"/>
+    <field_184 name="fDescription8"/>
+    <field_185 name="fDescription9"/>
+    <field_186 name="fDescription10"/>
+    <field_187 name="fDescription11"/>
+    <field_188 name="fDescription12"/>
+    <field_189 name="fDescription13"/>
+    <field_190 name="fDescription14"/>
+    <field_191 name="fDescription15"/>
+    <field_192 name="fDescription16"/>
+    <field_193 name="fDescriptionFlags"/>
+    <field_194 description="fToolTip1"/>
+    <field_195 description="fToolTip2"/>
+    <field_196 description="fToolTip3"/>
+    <field_197 description="fToolTip4"/>
+    <field_198 description="fToolTip5"/>
+    <field_199 description="fToolTip6"/>
+    <field_200 description="fToolTip7"/>
+    <field_201 description="fToolTip8"/>
+    <field_202 description="fToolTip9"/>
+    <field_203 description="fToolTip10"/>
+    <field_204 description="fToolTip11"/>
+    <field_205 description="fToolTip12"/>
+    <field_206 description="fToolTip13"/>
+    <field_207 description="fToolTip14"/>
+    <field_208 description="fToolTip15"/>
+    <field_209 description="fToolTip16"/>
+    <field_210 description="fToolTipFlags"/>
+    <field_211 name="fManaCostPercentage"/>
+    <field_212 name="fStartRecoveryCategory"/>
+    <field_213 name="fStartRecoveryTime"/>
+    <field_214 name="fMaxTargetLevel"/>
+    <field_215 name="fSpellFamilyName"/>
+    <field_216 name="fSpellFamilyFlags_1_1"/>
+    <field_217 name="fSpellFamilyFlags_1_2"/>
+    <field_218 name="fSpellFamilyFlags_2"/>
+    <field_219 name="fMaxAffectedTargets"/>
+    <field_220 name="fDmgClass"/>
+    <field_221 name="fPreventionType"/>
+    <field_222 name="fStanceBarOrder"/>
+    <field_223 name="fDmgMultiplier1"/>
+    <field_224 name="fDmgMultiplier2"/>
+    <field_225 name="fDmgMultiplier3"/>
+    <field_226 name="fMinFactionIndex"/>
+    <field_227 name="fMinReputation"/>
+    <field_228 name="fRequireAuraVision"/>
+    <field_229 name="fTotemCategory1"/>
+    <field_230 name="fTotemCategory2"/>
+    <field_231 name="f_AreaGroupId"/>
+    <field_232 name="fSchoolMask"/>
+    <field_233 name="f_runeCostId"/>
+    <field_234 name="f_SpellMissileId"/>
+    <field_235 name="f_PowerDisplay" description="PowerDisplay.dbc"/>
+    <field_236 name="f_236"/>
+    <field_237 name="f_237"/>
+    <field_238 name="f_238"/>
+    <field_239 name="fSpellDescriptionVariableId"/>
+  </Spell>
+  <SpellItemEnchantment>
+    <format string="niiiiiixxxiiissssssssssssssssxiiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fType1"/>
+    <field_3 name="fType2"/>
+    <field_4 name="fType3"/>
+    <field_5 name="fAmount1"/>
+    <field_6 name="fAmount2"/>
+    <field_7 name="fAmount3"/>
+    <field_8 name="f1Amount1"/>
+    <field_9 name="f1Amount2"/>
+    <field_10 name="f1Amount3"/>
+    <field_11 name="f_spell1"/>
+    <field_12 name="f_spell2"/>
+    <field_13 name="f_spell3"/>
+    <field_14 name="fDescription1"/>
+    <field_32 name="f_AuraIndex"/>
+    <field_33 name="fSlot"/>
+    <field_34 name="f_GemIndex"/>
+    <field_35 name="f_EnchantmentCondition"/>
+  </SpellItemEnchantment>
+  <SpellItemEnchantmentCondition>
+    <format string="nbbbbbbbbbbbbbbbiiiiibxbxbxbxbx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fColor1"/>
+    <field_3 name="fColor2"/>
+    <field_4 name="fColor3"/>
+    <field_5 name="fColor4"/>
+    <field_6 name="fColor5"/>
+    <field_7 name="fComporator1"/>
+    <field_8 name="fComporator2"/>
+    <field_9 name="fComporator3"/>
+    <field_10 name="fComporator4"/>
+    <field_11 name="fComporator5"/>
+    <field_12 name="fCompareColor1"/>
+    <field_13 name="fCompareColor2"/>
+    <field_14 name="fCompareColor3"/>
+    <field_15 name="fCompareColor4"/>
+    <field_16 name="fCompareColor5"/>
+    <field_17 name="fValue1"/>
+    <field_18 name="fValue2"/>
+    <field_19 name="fValue3"/>
+    <field_20 name="fValue4"/>
+    <field_21 name="fValue5"/>
+  </SpellItemEnchantmentCondition>
+  <SpellRadius>
+    <format string="nfxf"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 type="float" description="fyards"/>
+    <field_3 description="yards"/>
+    <field_4 type="float" description="fyards1"/>
+  </SpellRadius>
+  <SpellRange>
+    <format string="nffxsxxxxxxxxsxxxxxxxxxxxxxxxxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 description="fyards_min"/>
+    <field_3 description="fyards_max"/>
+    <field_4 description="funk4"/>
+    <field_5 description="fdescription"/>
+    <field_6 description="funk5"/>
+    <field_7 description="funk6"/>
+    <field_8 description="funk7"/>
+    <field_9 description="funk8"/>
+    <field_10 description="funk9"/>
+    <field_11 description="funk10"/>
+    <field_12 description="funk11"/>
+    <field_13 description="funk12"/>
+    <field_14 description="fname"/>
+    <field_15 description="funk14"/>
+    <field_16 description="funk15"/>
+    <field_17 description="funk16"/>
+    <field_18 description="funk17"/>
+    <field_19 description="funk18"/>
+    <field_20 description="f_i19"/>
+    <field_21 description="f_i20"/>
+    <field_22 description="funk21"/>
+    <field_23 description="f_i22"/>
+    <field_24 description="f23"/>
+    <field_25 description="funk24"/>
+    <field_26 description="funk25"/>
+    <field_27 description="funk26"/>
+    <field_28 description="funk27"/>
+    <field_29 description="funk28"/>
+    <field_30 description="funk29"/>
+    <field_31 description="funk30"/>
+    <field_32 description="funk31"/>
+    <field_33 description="funk32"/>
+    <field_34 description="funk33"/>
+    <field_35 description="funk34"/>
+    <field_36 description="funk35"/>
+    <field_37 description="funk36"/>
+    <field_38 description="funk37"/>
+  </SpellRange>
+  <SpellRuneCost>
+    <format string="niiii"/>
+  </SpellRuneCost>
+  <SpellShapeshiftForm>
+    <format string="nxssssssssssssssssiiixixxxxxxxxxxxx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fButtonPosition"/>
+    <field_3 name="fName" description="name"/>
+    <field_4 description="funk3"/>
+    <field_5 description="funk4"/>
+    <field_6 description="funk5"/>
+    <field_7 description="funk6"/>
+    <field_8 description="funk7"/>
+    <field_9 description="funk8"/>
+    <field_10 description="funk9"/>
+    <field_11 description="funk10"/>
+    <field_12 description="funk11"/>
+    <field_13 description="funk12"/>
+    <field_14 description="funk13"/>
+    <field_15 description="funk14"/>
+    <field_16 description="funk15"/>
+    <field_17 description="funk16"/>
+    <field_18 description="funk17"/>
+    <field_19 description="String Flag"/>
+    <field_20 name="fFlag"/>
+    <field_21 name="fCreatureType" description="меньше либо равно 0 humanoid, other normal creature types"/>
+    <field_22 description="funk21"/>
+    <field_23 name="fAttackSpeed"/>
+    <field_24 name="f_ModelIndex" description="alliance modelid (where horde case?)"/>
+    <field_25 description="funk24"/>
+    <field_26 description="funk25"/>
+    <field_27 description="funk26"/>
+    <field_28 description="funk27"/>
+    <field_29 description="funk28"/>
+    <field_30 description="funk29"/>
+    <field_31 description="funk30"/>
+    <field_32 description="funk31"/>
+    <field_33 description="funk32"/>
+    <field_34 description="funk33"/>
+    <field_35 description="funk34"/>
+  </SpellShapeshiftForm>
+  <StableSlotPrices>
+    <format string="ni"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fPrice" description="fprice"/>
+  </StableSlotPrices>
+  <SummonProperties>
+    <format string="niiiii"/>
+  </SummonProperties>
+  <Talent>
+    <format string="niiiiiiiixxxxixxixxxi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="f_talentTab" description="talentTab.dbc"/>
+    <field_3 name="fRow"/>
+    <field_4 name="fCol"/>
+    <field_5 name="f_RankIndex1"/>
+    <field_6 name="f_RankIndex2"/>
+    <field_7 name="f_RankIndex3"/>
+    <field_8 name="f_RankIndex4"/>
+    <field_9 name="f_RankIndex5"/>
+    <field_10 description="funk9"/>
+    <field_11 description="funk10"/>
+    <field_12 description="funk11"/>
+    <field_13 description="funk12"/>
+    <field_14 name="f_TalentIndex" description="Parent talent"/>
+    <field_15 description="funk14"/>
+    <field_16 description="funk15"/>
+    <field_17 name="f_RankIndex" description="Required Rank"/>
+    <field_18 description="funk17"/>
+    <field_19 description="funk18"/>
+    <field_20 description="funk19"/>
+    <field_21 name="f_SpellIndex" description="Required Spell"/>
+  </Talent>
+  <TalentTab>
+    <format string="nssssssssssssssssiixiis"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="fName" description="name vetki"/>
+    <field_3 description="funk2"/>
+    <field_4 description="funk3"/>
+    <field_5 description="funk4"/>
+    <field_6 description="funk5"/>
+    <field_7 description="funk6"/>
+    <field_8 description="funk7"/>
+    <field_9 description="funk8"/>
+    <field_10 description="funk9"/>
+    <field_11 description="spellIcon.dbc"/>
+    <field_12 description="funk11"/>
+    <field_13 description="funk12"/>
+    <field_14 description="funk13"/>
+    <field_15 description="iname"/>
+    <field_16 description="funk15"/>
+    <field_17 description="funk16"/>
+    <field_18 description="funk17"/>
+    <field_19 name="f_SpellIconIndex"/>
+    <field_20 description="funk19"/>
+    <field_21 name="fClassMask"/>
+    <field_22 name="fTabPage"/>
+    <field_23 name="fInternalName"/>
+  </TalentTab>
+  <TaxiNodes>
+    <format string="nifffssssssssssssssssiii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="f_Map" description="map.dbc"/>
+    <field_3 name="f_PosX" description="x"/>
+    <field_4 name="f_PosY" description="y"/>
+    <field_5 name="f_PosZ" description="z"/>
+    <field_6 name="fName" description="name"/>
+    <field_7 description="funk2"/>
+    <field_8 description="funk3"/>
+    <field_9 description="funk4"/>
+    <field_10 description="funk5"/>
+    <field_11 description="funk6"/>
+    <field_12 description="funk7"/>
+    <field_13 description="funk8"/>
+    <field_14 description="funk9"/>
+    <field_15 description="funk10"/>
+    <field_16 description="funk11"/>
+    <field_17 description="funk12"/>
+    <field_18 description="funk13"/>
+    <field_19 description="funk14"/>
+    <field_20 description="funk15"/>
+    <field_21 description="funk16"/>
+    <field_22 description="String Flag"/>
+    <field_23 name="fHordeMountType"/>
+    <field_24 name="fAlianceMountType"/>
+  </TaxiNodes>
+  <TaxiPath>
+    <format string="niii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="f_TaxiNodeIndexFrom" description="TaxiNodes.dbc(from)"/>
+    <field_3 name="f_TaxiNodeIndexTo" description="TaxiNodes.dbc(to)"/>
+    <field_4 name="fPrice" description="Price"/>
+  </TaxiPath>
+  <TaxiPathNode>
+    <format string="iiiifffiixx"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="f_TaxiPathIndex" description="TaxiPath.dbc"/>
+    <field_3 name="f_AreaIndex" description="AreaTable.dbc"/>
+    <field_4 name="f_MapIndex" description="Map.dbc"/>
+    <field_5 name="fX" description="x"/>
+    <field_6 name="fY" description="y"/>
+    <field_7 name="fZ" description="z"/>
+    <field_8 name="fActionFlag"/>
+    <field_9 name="fDelay"/>
+    <field_10 description="funk2"/>
+    <field_11 description="funk2"/>
+  </TaxiPathNode>
+  <TotemCategory>
+    <format string="nssssssssssssssssxii"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="fName" description="name"/>
+    <field_3 description="funk3"/>
+    <field_4 description="funk4"/>
+    <field_5 description="funk5"/>
+    <field_6 description="funk6"/>
+    <field_7 description="funk7"/>
+    <field_8 description="funk8"/>
+    <field_9 description="funk9"/>
+    <field_10 description="funk10"/>
+    <field_11 description="funk11"/>
+    <field_12 description="funk12"/>
+    <field_13 description="funk13"/>
+    <field_14 description="funk14"/>
+    <field_15 description="funk15"/>
+    <field_16 description="funk16"/>
+    <field_17 description="funk17"/>
+    <field_18 description="funk18"/>
+    <field_19 name="fCategoryType" description="(one for specialization)"/>
+    <field_20 name="fCategoryMask" description="(compatibility mask for same type: different for totems, compatible from high to low for rods)"/>
+  </TotemCategory>
+  <Vehicle>
+    <format string="niffffiiiiiiiifffffffffffffffssssfifixxx"/>
+  </Vehicle>
+  <VehicleSeat>
+    <format string="niiffffffffffiiiiiifffffffiiifffiiiiiiiffiiiiixxxxxxxxxxxx"/>
+  </VehicleSeat>
+  <WorldMapArea>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <format string="niisffffi"/>
+    <field_1 name="fkey" description="id"/>
+    <field_2 name="f_MapIndex" description="map.dbc"/>
+    <field_3 name="f_AreaIndex" description="areatable.dbc"/>
+    <field_4 type="string" name="fInternalName" description="finternal_name"/>
+    <field_5 type="float" name="fMinY" description="y_min"/>
+    <field_6 type="float" name="fMaxY" description="y_max"/>
+    <field_7 type="float" name="fMinX" description="x_min"/>
+    <field_8 type="float" name="fMaxX" description="x_max"/>
+    <field_9 name="fVirtualMapIndex" description="f_virtual_map_id"/>
+  </WorldMapArea>
+  <WorldMapOverlay>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 type="integer" description="f_zone"/>
+    <field_3 type="integer" description="f_area"/>
+    <field_4 type="integer" description="funk1"/>
+    <field_5 type="integer" description="funk2"/>
+    <field_6 type="integer" description="funk3"/>
+    <field_7 type="integer" description="funk4"/>
+    <field_8 type="integer" description="funk5"/>
+    <field_9 type="string" description="name"/>
+    <field_10 type="float" description="width"/>
+    <field_11 type="float" description="height"/>
+    <field_12 type="float" description="pos_x"/>
+    <field_13 type="float" description="pos_y"/>
+    <field_14 type="integer" description="funk6"/>
+    <field_15 type="integer" description="funk7"/>
+    <field_16 type="integer" description="funk8"/>
+    <field_17 type="integer" description="funk9"/>
+  </WorldMapOverlay>
+  <WorldSafeLocs>
+    <format string="nifffssssssssssssssssi"/>
+    <index>
+      <primary>fkey</primary>
+    </index>
+    <field_1 name="fkey" description="key field"/>
+    <field_2 name="f_Map" description="map.dbc"/>
+    <field_3 name="f_PosX" description="x"/>
+    <field_4 name="f_PosY" description="y"/>
+    <field_5 name="f_PosZ" description="z"/>
+    <field_6 name="fName" description="name"/>
+    <field_7 description="fname1"/>
+    <field_8 description="fname2"/>
+    <field_9 description="fname3"/>
+    <field_10 description="fname4"/>
+    <field_11 description="fname5"/>
+    <field_12 description="fname6"/>
+    <field_13 description="fname7"/>
+    <field_14 description="fname8"/>
+    <field_15 description="fname9"/>
+    <field_16 description="fname10"/>
+    <field_17 description="fname11"/>
+    <field_18 description="fname12"/>
+    <field_19 description="fname13"/>
+    <field_20 description="fname14"/>
+    <field_21 description="fname15"/>
+    <field_22 description="fstringFlag"/>
+  </WorldSafeLocs>  
+  
+
+  
+  <!-- not used -->
+  <AreaPOI>
+	<format string="nxxxfffixxsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="ID"/>
+	<field_2 description="ID"/>
+	<field_3 description="ID"/>
+	<field_4 description="ID"/>
+	<field_5 name="fPosX" description="posx"/>
+	<field_6 name="fPosY" description="posy"/>
+	<field_7 name="fPosZ" description="posz"/>
+	<field_8 name="f_Map" description="Map"/>
+	<field_11 name="fname" description="POI Name"/>
+  </AreaPOI>
+	<Achievement_Category>
+		<format string="nisssssssssssssssii"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="ID"/>
+	</Achievement_Category>
+	<AnimationData>
+	<format string="nsiiiiii"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="ID"/>
+	<field_2 name="fName" description="Animation Name"/>
+  </AnimationData>
+  <AttackAnimKits>
+	<format string="nxxxx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="ID"/>
+  </AttackAnimKits>
+  <AttackAnimTypes>
+	<format string="ns"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="ID"/>
+	<field_2 name="fName" description="Name"/>
+  </AttackAnimTypes>
+  <CharBaseInfo>
+	<format string="bb"/>
+	<field_1 name="f_class" description="Class"/>
+	<field_2 name="f_race" description="Race"/>
+  </CharBaseInfo>
+  <ChatProfanity>
+	<format string="nsi"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+	<field_2 description="title"/>
+	<field_3 description="unknown"/>
+  </ChatProfanity>
+  <CurrencyCategory>
+	<format string="nissssssssssssssssi"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="funk0"/>
+	<field_3 name="fname1"/>
+	<field_4 name="fname2"/>
+	<field_5 name="fname3"/>
+	<field_6 name="fname4"/>
+	<field_7 name="fname5"/>
+	<field_8 name="fname6"/>
+	<field_9 name="fname7"/>
+	<field_10 name="fname8"/>
+	<field_11 name="fname9"/>
+	<field_12 name="fname10"/>
+	<field_13 name="fname11"/>
+	<field_14 name="fname12"/>
+	<field_15 name="fname13"/>
+	<field_16 name="fname14"/>
+	<field_17 name="fname15"/>
+	<field_18 name="fname16"/>
+	<field_19 name="fname16"/>
+	<field_20 name="fstringmask"/>
+  </CurrencyCategory>
+  <DeclinedWord>
+	<format string="ns"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_1 description="fname"/>
+  </DeclinedWord>
+  <DeclinedWordCases>
+	<format string="niis"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 description="index to DeclinedWord"/>
+	<field_3 description="word form"/>
+	<field_4 description="text"/>
+  </DeclinedWordCases>
+  <FactionGroup>
+	<format string="nisssssssssssssssssi"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+        <field_1 name="fkey" description="id"/>
+        <field_2 name="f_fkey" description="Parent"/>
+	<field_3 name="fname1"/>
+	<field_4 name="fname2"/>
+	<field_5 name="fname3"/>
+	<field_6 name="fname4"/>
+	<field_7 name="fname5"/>
+	<field_8 name="fname6"/>
+	<field_9 name="fname7"/>
+	<field_10 name="fname8"/>
+	<field_11 name="fname9"/>
+	<field_12 name="fname10"/>
+	<field_13 name="fname11"/>
+	<field_14 name="fname12"/>
+	<field_15 name="fname13"/>
+	<field_16 name="fname14"/>
+	<field_17 name="fname15"/>
+	<field_18 name="fname16"/>
+	<field_19 name="fname16"/>
+	<field_20 name="fstringmask"/>
+  </FactionGroup>
+  <ItemClass>
+		<format string="niisssssssssssssi"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="key field"/>
+	    <field_12 name="fname8" description="Russian"/>
+	</ItemClass>
+	<ItemDisplayInfo>
+		<format string="nsssssxxxxxixssssssssssii"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="id"/>
+		<field_2 description="model left"/>
+		<field_3 description="model right"/>
+		<field_4 description="texture left"/>
+		<field_5 description="texture right"/>
+		<field_6 name="fInternalName" description="internal name"/>
+		<field_12 name="f_RandomPropertyChance" description="Random property chance"/>
+		<field_15 description="texture arm upper"/>
+		<field_16 description="texture arm lower"/>
+		<field_17 description="texture hand"/>
+		<field_18 description="texture torso upper"/>
+		<field_19 description="texture torso lower"/>
+		<field_20 description="texture leg upper"/>
+		<field_21 description="texture leg lower"/>
+		<field_22 description="texture foot"/>
+		<field_23 description="texture mail"/>
+		<field_24 description="Random property chanse?" />
+		<field_25 description="Random property chanse?" />
+	</ItemDisplayInfo>
+	<ItemCondExtCosts>
+		<format string="xiii"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="key field"/>
+		<field_2 name="fCondExtendedCost" description="ItemPrototype::CondExtendedCost"/>
+		<field_3 name="fItemExtendedCost" description="ItemPrototype::ExtendedCost"/>
+		<field_4 name="fArenaSeason" description="arena season number(1-4)"/>
+	</ItemCondExtCosts>
+  <ItemVisualEffects>
+	<format string="ns"/>
+	<field_1 name="fkey" description="id"/>
+	<field_2 description="filename visual effect"/>
+  </ItemVisualEffects>
+  <Languages>
+	<format string="nssssssssssssssssi"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="fname" description="fname"/>
+  </Languages>
+  <LockType>
+	<format string="nssssssssssssssssissssssssssssssssissssssssssssssssix"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+  </LockType>
+  <QuestInfo>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+	<field_2 type="string" description="name"/>
+  </QuestInfo>
+	<SkillLineCategory>
+		<format string="nssssssssssssssssii"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="key field"/>
+		<field_2 name="fName"/>
+		<field_20 name="fDisplayOrder"/>
+	</SkillLineCategory>
+	<SkillRaceClassInfo>
+		<format string="nssssssssssssssssii"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="key field"/>
+		<filed_2 name="f_SkillIndex"/>
+		<filed_3 name="fRaceMask"/>
+		<filed_4 name="fClassMask"/>
+		<field_5 name="fFlags"/>
+		<filed_6 name="fRequiredLevel"/>
+		<filed_7 name="f_SkillTierIndex"/>
+		<filed_8 name="f_SkillCostIndex"/>
+	</SkillRaceClassInfo>
+	<SkillTiers>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="key field"/>
+		<field_2 name="fSkillValue1"/>
+		<field_3 name="fSkillValue2"/>
+		<field_4 name="fSkillValue3"/>
+		<field_5 name="fSkillValue4"/>
+		<field_6 name="fSkillValue5"/>
+		<field_7 name="fSkillValue6"/>
+		<field_8 name="fSkillValue7"/>
+		<field_9 name="fSkillValue8"/>
+		<field_10 name="fSkillValue9"/>
+		<field_11 name="fSkillValue10"/>
+		<field_12 name="fSkillValue11"/>
+		<field_13 name="fSkillValue12"/>
+		<field_14 name="fSkillValue13"/>
+		<field_15 name="fSkillValue14"/>
+		<field_16 name="fSkillValue15"/>
+		<field_17 name="fSkillValue16"/>
+		<field_18 name="fMaxSkillValue1"/>
+		<field_19 name="fMaxSkillValue2"/>
+		<field_20 name="fMaxSkillValue3"/>
+		<field_21 name="fMaxSkillValue4"/>
+		<field_22 name="fMaxSkillValue5"/>
+		<field_23 name="fMaxSkillValue6"/>
+		<field_24 name="fMaxSkillValue7"/>
+		<field_25 name="fMaxSkillValue8"/>
+		<field_26 name="fMaxSkillValue9"/>
+		<field_27 name="fMaxSkillValue10"/>
+		<field_28 name="fMaxSkillValue11"/>
+		<field_29 name="fMaxSkillValue12"/>
+		<field_30 name="fMaxSkillValue13"/>
+		<field_31 name="fMaxSkillValue14"/>
+		<field_32 name="fMaxSkillValue15"/>
+		<field_33 name="fMaxSkillValue16"/>
+	</SkillTiers>
+  <SpamMessages>
+	<format string="is"/>
+	<field_1 type="integer" description="id"/>
+	<field_2 type="string" description="pravila chto chitat spam"/>
+  </SpamMessages>
+  <SpellAuraNames>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_3 type="string" description="name"/>
+	<field_4 type="string" description="description"/>
+  </SpellAuraNames>
+	<SpellFocusObject>
+		<format string="nssssssssssssssssi"/>
+		<index>
+			<primary>fkey</primary>
+		</index>
+		<field_1 name="fkey" description="key field"/>
+		<field_2 name="fName" description="name"/>
+		<field_18 description="string flag"/>
+	</SpellFocusObject>
+	<SpellDispelType>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 type="string" description="name"/>
+  </SpellDispelType>
+  <SpellEffectNames>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 type="string" description="name"/>
+  </SpellEffectNames>
+  <SpellIcon>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 type="string" description="icon"/>
+  </SpellIcon>
+  <SpellMechanic>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 type="string" description="name"/>
+  </SpellMechanic>
+  <TerrainType>
+	<format string="nsxxxx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+  </TerrainType>
+  <TotemCategory>
+	<format string="nssssssssssssssssxii"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+	<field_2 name="fName" description="name"/>
+	<field_3 description="funk3"/>
+	<field_4 description="funk4"/>
+	<field_5 description="funk5"/>
+	<field_6 description="funk6"/>
+	<field_7 description="funk7"/>
+	<field_8 description="funk8"/>
+	<field_9 description="funk9"/>
+	<field_10 description="funk10"/>
+	<field_11 description="funk11"/>
+	<field_12 description="funk12"/>
+	<field_13 description="funk13"/>
+	<field_14 description="funk14"/>
+	<field_15 description="funk15"/>
+	<field_16 description="funk16"/>
+	<field_17 description="funk17"/>
+	<field_18 description="funk18"/>
+	<field_19 name="fCategoryType" description="(one for specialization)"/>
+	<field_20 name="fCategoryMask" description="(compatibility mask for same type: different for totems, compatible from high to low for rods)"/>
+  </TotemCategory>
+  <UISoundLookups>
+	<format string="nis"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+  </UISoundLookups>
+  <UnitBlood>
+	<format string="nxxxxssssx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+  </UnitBlood>
+  <Weather>
+	<format string="nxxxxxs"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+  </Weather>
+  <WMOAreaTable>
+	<format string="nxxxxxxxxxxssssssssssssssssi"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="id"/>
+  </WMOAreaTable>
+  <WorldMapArea>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<format string="niisffffi"/>
+	<field_1 name="fkey" description="id"/>
+	<field_2 name="f_MapIndex" description="map.dbc"/>
+	<field_3 name="f_AreaIndex" description="areatable.dbc"/>
+	<field_4 type="string" name="fInternalName" description="finternal_name"/>
+	<field_5 type="float" name="fMinY" description="y_min"/>
+	<field_6 type="float" name="fMaxY" description="y_max"/>
+	<field_7 type="float" name="fMinX" description="x_min"/>
+	<field_8 type="float" name="fMaxX" description="x_max"/>
+	<field_9 name="fVirtualMapIndex" description="f_virtual_map_id"/>
+  </WorldMapArea>
+  <WorldMapContinent>
+	<format string="niiiiifffffff"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="f_Map" description="map.dbc"/>
+	<field_3 description="funk1"/>
+	<field_4 description="funk2"/>
+	<field_5 description="funk3"/>
+	<field_6 description="funk4"/>
+	<field_7 description="funk5"/>
+	<field_8 description="funk6"/>
+	<field_9 description="funk7"/>
+	<field_10 description="funk8"/>
+	<field_11 description="funk9"/>
+	<field_12 description="funk10"/>
+	<field_13 description="funk11"/>
+  </WorldMapContinent>
+  <WorldMapOverlay>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 type="integer" description="f_zone"/>
+	<field_3 type="integer" description="f_area"/>
+	<field_4 type="integer" description="funk1"/>
+	<field_5 type="integer" description="funk2"/>
+	<field_6 type="integer" description="funk3"/>
+	<field_7 type="integer" description="funk4"/>
+	<field_8 type="integer" description="funk5"/>
+	<field_9 type="string" description="name"/>
+	<field_10 type="float" description="width"/>
+	<field_11 type="float" description="height"/>
+	<field_12 type="float" description="pos_x"/>
+	<field_13 type="float" description="pos_y"/>
+	<field_14 type="integer" description="funk6"/>
+	<field_15 type="integer" description="funk7"/>
+	<field_16 type="integer" description="funk8"/>
+	<field_17 type="integer" description="funk9"/>
+  </WorldMapOverlay>
+  <WorldMapTransforms>
+	<format string="niffffiff"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="f_Map" description="map.dbc"/>
+  </WorldMapTransforms>
+  <WorldStateUI>
+	<format string="nixxssssssssssssssssisssssssssssssssssixxxxxxxxxxxxxxxxxxxxxxxx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="f_Map" description="map.dbc"/>
+	<field_2 name="f_Area" description="areatable.dbc"/>
+	<field_5 name="fName" />
+	<field_22 name="fName1" />
+  </WorldStateUI>
+  <WowError_Strings>
+	<format string="nsssssssssssssssssi"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="fInternalName" description="internalName"/>
+	<field_2 name="fMessage" description="Message"/>
+  </WowError_Strings>
+  <ZoneIntroMusicTable>
+	<format string="nsxxx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="fName" description="Name"/>
+  </ZoneIntroMusicTable>
+  <ZoneMusic>
+	<format string="nsxxxxxx"/>
+	<index>
+	  <primary>fkey</primary>
+	</index>
+	<field_1 name="fkey" description="key field"/>
+	<field_2 name="fName" description="Name"/>
+  </ZoneMusic>
+
+</DBFilesClient>
