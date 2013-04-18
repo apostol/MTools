@@ -8,13 +8,13 @@
     </index>
     <field_1 name="fkey" description="ID"/>
   </Achievement>
-  <AchievementCriteria>
+  <Achievement_Criteria>
     <format string="niiiiiiiixxxxxxxxxxxxxxxxxiixix"/>
     <index>
       <primary>fkey</primary>
     </index>
     <field_1 name="fkey" description="ID"/>
-  </AchievementCriteria>
+  </Achievement_Criteria>
   <AreaTable>
     <format string="iiinixxxxxissssssssssssssssiixxxxff"/>
     <index>
@@ -95,6 +95,9 @@
     <field_1 name="fkey" description="id"/>
     <field_2 name="fPrice" description="price"/>
   </BankBagSlotPrices>
+  <BannedAddOns>
+    <format string=""/>
+  </BannedAddOns>
   <BarberShopStyle>
     <format string="nixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiii"/>
     <index>
@@ -136,6 +139,9 @@
     <field_32 description="string flag"/>
     <field_33 description="Unknown"/>
   </BattlemasterList>
+  <CameraShakes>
+    <format string=""/>
+  </CameraShakes>
   <CharStartOutfit>
     <format string="diiiiiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
     <index>
@@ -1840,5 +1846,162 @@
 	<field_1 name="fkey" description="key field"/>
 	<field_2 name="fName" description="Name"/>
   </ZoneMusic>
+
+
+<Cfg_Categories>
+	<format string=""/>
+</Cfg_Categories>
+<Cfg_Configs>
+	<format string=""/>
+</Cfg_Configs>
+<CharacterFacialHairStyles>
+	<format string=""/>
+</CharacterFacialHairStyles>
+<CharHairGeosets>
+	<format string=""/>
+</CharHairGeosets>
+<CharHairTextures>
+	<format string=""/>
+</CharHairTextures>
+<CharSections>
+	<format string=""/>
+</CharSections>
+<CharVariations>
+	<format string=""/>
+</CharVariations>
+<CinematicCamera>
+	<format string=""/>
+</CinematicCamera>
+<CreatureDisplayInfoExtra>
+	<format string=""/>
+</CreatureDisplayInfoExtra>
+<CreatureModelData>
+	<format string=""/>
+</CreatureModelData>
+<CreatureMovementInfo>
+	<format string=""/>
+</CreatureMovementInfo>
+<CreatureSoundData><format string=""/>
+</CreatureSoundData>
+<DanceMoves>
+	<format string=""/>
+</DanceMoves>
+
+<DeathThudLookups><format string=""/> </DeathThudLookups>
+<DestructibleModelData><format string=""/> </DestructibleModelData>
+<DungeonEncounter><format string=""/> </DungeonEncounter>
+<DungeonMap><format string=""/> </DungeonMap>
+<DungeonMapChunk><format string=""/> </DungeonMapChunk>
+<EmotesTextData><format string=""/> </EmotesTextData>
+<EmotesTextSound><format string=""/> </EmotesTextSound>
+<EnvironmentalDamage><format string=""/> </EnvironmentalDamage>
+<Exhaustion><format string=""/> </Exhaustion>
+<FileData><format string=""/> </FileData>
+<FootprintTextures><format string=""/> </FootprintTextures>
+<FootstepTerrainLookup><format string=""/> </FootstepTerrainLookup>
+<GameObjectArtKit><format string=""/> </GameObjectArtKit>
+<GameObjectDisplayInfo><format string=""/> </GameObjectDisplayInfo>
+<GameTables><format string=""/> </GameTables>
+<GameTips><format string=""/> </GameTips>
+<GMSurveyAnswers><format string=""/> </GMSurveyAnswers>
+<GMSurveyCurrentSurvey><format string=""/> </GMSurveyCurrentSurvey>
+<GMSurveyQuestions><format string=""/> </GMSurveyQuestions>
+<GMSurveySurveys><format string=""/> </GMSurveySurveys>
+<GMTicketCategory><format string=""/> </GMTicketCategory>
+<GroundEffectDoodad><format string=""/> </GroundEffectDoodad>
+<GroundEffectTexture><format string=""/> </GroundEffectTexture>
+<gtNPCManaCostScaler><format string=""/> </gtNPCManaCostScaler>
+<gtOCTClassCombatRatingScalar><format string=""/> </gtOCTClassCombatRatingScalar>
+<HelmetGeosetVisData><format string=""/> </HelmetGeosetVisData>
+<HolidayDescriptions><format string=""/> </HolidayDescriptions>
+<HolidayNames><format string=""/> </HolidayNames>
+<ItemGroupSounds><format string=""/> </ItemGroupSounds>
+<ItemPetFood><format string=""/> </ItemPetFood>
+<ItemPurchaseGroup><format string=""/> </ItemPurchaseGroup>
+<ItemSubClass><format string=""/> </ItemSubClass>
+<ItemSubClassMask><format string=""/> </ItemSubClassMask>
+<ItemVisuals><format string=""/> </ItemVisuals>
+<LanguageWords><format string=""/> </LanguageWords>
+<LFGDungeonExpansion><format string=""/> </LFGDungeonExpansion>
+<LFGDungeonGroup><format string=""/> </LFGDungeonGroup>
+<LFGDungeons><format string=""/> </LFGDungeons>
+<Light><format string=""/> </Light>
+<LightFloatBand><format string=""/> </LightFloatBand>
+<LightIntBand><format string=""/> </LightIntBand>
+<LightParams><format string=""/> </LightParams>
+<LightSkybox><format string=""/> </LightSkybox>
+<LiquidMaterial><format string=""/> </LiquidMaterial>
+<LiquidType><format string=""/> </LiquidType>
+<LoadingScreens><format string=""/> </LoadingScreens>
+<LoadingScreenTaxiSplines><format string=""/> </LoadingScreenTaxiSplines>
+<Material><format string=""/> </Material>
+<MovieFileData><format string=""/> </MovieFileData>
+<MovieVariation><format string=""/> </MovieVariation>
+<NameGen><format string=""/> </NameGen>
+<NamesProfanity><format string=""/> </NamesProfanity>
+<NamesReserved><format string=""/> </NamesReserved>
+<NPCSounds><format string=""/> </NPCSounds>
+<ObjectEffect><format string=""/> </ObjectEffect>
+<ObjectEffectGroup><format string=""/> </ObjectEffectGroup>
+<ObjectEffectModifier><format string=""/> </ObjectEffectModifier>
+<ObjectEffectPackage><format string=""/> </ObjectEffectPackage>
+<ObjectEffectPackageElem><format string=""/> </ObjectEffectPackageElem>
+<OverrideSpellData><format string=""/> </OverrideSpellData>
+<Package><format string=""/> </Package>
+<PageTextMaterial><format string=""/> </PageTextMaterial>
+<PaperDollItemFrame><format string=""/> </PaperDollItemFrame>
+<ParticleColor><format string=""/> </ParticleColor>
+<PetitionType><format string=""/> </PetitionType>
+<PetPersonality><format string=""/> </PetPersonality>
+<PowerDisplay><format string=""/> </PowerDisplay>
+<PvpDifficulty><format string=""/> </PvpDifficulty>
+<QuestFactionReward><format string=""/> </QuestFactionReward>
+<QuestXP><format string=""/> </QuestXP>
+<Resistances><format string=""/> </Resistances>
+<ScreenEffect><format string=""/> </ScreenEffect>
+<ServerMessages><format string=""/> </ServerMessages>
+<SheatheSoundLookups><format string=""/> </SheatheSoundLookups>
+<SkillCostsData><format string=""/> </SkillCostsData>
+<SoundAmbience><format string=""/> </SoundAmbience>
+<SoundEmitters><format string=""/> </SoundEmitters>
+<SoundEntriesAdvanced><format string=""/> </SoundEntriesAdvanced>
+<SoundFilter><format string=""/> </SoundFilter>
+<SoundFilterElem><format string=""/> </SoundFilterElem>
+<SoundProviderPreferences><format string=""/> </SoundProviderPreferences>
+<SoundSamplePreferences><format string=""/> </SoundSamplePreferences>
+<SoundWaterType><format string=""/> </SoundWaterType>
+<SpellCategory><format string=""/> </SpellCategory>
+<SpellChainEffects><format string=""/> </SpellChainEffects>
+<SpellDescriptionVariables><format string=""/> </SpellDescriptionVariables>
+<SpellDifficulty><format string=""/> </SpellDifficulty>
+<SpellEffectCameraShakes><format string=""/> </SpellEffectCameraShakes>
+<SpellMissile><format string=""/> </SpellMissile>
+<SpellMissileMotion><format string=""/> </SpellMissileMotion>
+<SpellVisual><format string=""/> </SpellVisual>
+<SpellVisualEffectName><format string=""/> </SpellVisualEffectName>
+<SpellVisualKit><format string=""/> </SpellVisualKit>
+<SpellVisualKitAreaModel><format string=""/> </SpellVisualKitAreaModel>
+<SpellVisualKitModelAttach><format string=""/> </SpellVisualKitModelAttach>
+<SpellVisualPrecastTransitions><format string=""/> </SpellVisualPrecastTransitions>
+<Startup_Strings><format string=""/> </Startup_Strings>
+<Stationery><format string=""/> </Stationery>
+<StringLookups><format string=""/> </StringLookups>
+<TeamContributionPoints><format string=""/> </TeamContributionPoints>
+<TerrainTypeSounds><format string=""/> </TerrainTypeSounds>
+<TransportAnimation><format string=""/> </TransportAnimation>
+<TransportPhysics><format string=""/> </TransportPhysics>
+<TransportRotation><format string=""/> </TransportRotation>
+<UnitBloodLevels><format string=""/> </UnitBloodLevels>
+<VehicleUIIndicator><format string=""/> </VehicleUIIndicator>
+<VehicleUIIndSeat><format string=""/> </VehicleUIIndSeat>
+<VideoHardware><format string=""/> </VideoHardware>
+<VocalUISounds><format string=""/> </VocalUISounds>
+<WeaponImpactSounds><format string=""/> </WeaponImpactSounds>
+<WeaponSwingSounds2><format string=""/> </WeaponSwingSounds2>
+<WorldChunkSounds><format string=""/> </WorldChunkSounds>
+<WorldStateZoneSounds><format string=""/> </WorldStateZoneSounds>
+
+
+
 
 </DBFilesClient>
